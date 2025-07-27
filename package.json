@@ -1,0 +1,25 @@
+{
+  "name": "node-red-contrib-heic-to-jpeg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Blight",
+  "license": "ISC",
+  "keywords": [
+    "node-red",
+    "heic",
+    "jpeg",
+    "image",
+    "tools"
+  ],
+  "dependencies": {
+  },
+  "node-red": {
+    "nodes": {
+      "heic-to-jpeg": "heic-to-jpeg.js"
+    }
+  }
+}
